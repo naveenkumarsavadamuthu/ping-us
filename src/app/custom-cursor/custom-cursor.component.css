@@ -1,0 +1,11 @@
+.custom-cursor {
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    background-image: url('../../assets/circle.png'); /* Update the path */
+    background-size: cover;
+    background-position: center;
+    pointer-events: none;
+    z-index: 9999;
+    transition: transform 0.1s ease;
+}

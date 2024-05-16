@@ -1,0 +1,937 @@
+
+.col-lg-4 {
+  flex: 0 0 auto;
+  width: 25.333333% !important;
+}
+
+.text-center {
+  text-align: center;
+}
+.slide1{
+  padding: 45px;
+}
+.text-white {
+  color: black;
+}
+.texts{
+  margin-top: 20px;
+  font-family: Spectral;
+}
+
+.brd {
+  position: relative;
+}.brd1 {
+  position: relative; 
+}
+.brds {
+  position: relative; 
+}
+
+.bt {
+  background-color: #ffffff;
+  color: #000000;
+  padding-right: 60px;
+  position: relative; 
+  border: none; 
+  cursor: pointer; 
+  transition: transform 0.3s ease;
+}
+.bt:hover {
+  transform: scale(1.1);
+}
+
+.bt::after {
+  content: "";
+  color: black;
+  border-radius: 50%;
+  background-image: url("../../assets/Group\ 69670.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 42px;
+  position: absolute;
+  top: 50%;
+  left: 130px;
+  transform: translateY(-50%);
+}
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+ .gray{
+  background-color: gainsboro;
+  width: 100%;
+  height: 330px;
+ }
+ .conatin{
+  display: flex;
+ }
+ ul li{
+  list-style-type: none;
+ }
+ .nav-list{
+  border-radius: 30px;
+  font-family: Spectral;
+  list-style-type: none;
+  padding: 0;
+  margin: 10px;
+  margin-bottom: 10px;
+  background-color: white;
+  padding: 30px;
+  width: 86%;
+ }
+ .nav-list li {
+  position: relative;
+  padding: 4px;
+}
+
+.nav-list li:hover {
+  color: orange; 
+  cursor: pointer;
+}
+ .Group h2 p{
+  font-size: 5px;
+ }
+.Group{
+  background-color: whitesmoke;
+  height: 270px;
+  padding: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+.text-container {
+  white-space: nowrap;
+  font-family:
+  Song Myung;
+  overflow: hidden;
+  font-size: 24px;
+}
+.nav-list li .fa-chevron-right {
+  position: absolute;
+  right: 0;
+  top: 60%;
+  left: 185px;
+  transform: translateY(-70%);
+}
+.text-container span {
+  display: inline-block;
+  margin-right: 1rem;
+  animation: slideIn 0.5s ease-in-out forwards;
+}
+.text-container span:last-child {
+  margin-right: 0; 
+}
+
+.text-container span:nth-child(odd) {
+  animation-delay: 0.5s;
+}
+
+
+
+
+
+.bt {
+  border-radius: 20px;
+  font-family: Song Myung;
+  border: none;
+  font-size: 15px;
+  padding: 15px 45px 15px 45px;
+  margin-top: 20px;
+  color: white;
+  padding-left: 3px;
+  background-color: rgba(255, 73, 0, 1);
+}
+.btr:hover {
+    color: black;
+    animation: boom 0.1s ease;
+  }
+
+@keyframes boom {
+  0% { transform: scale(0); }
+  50% { transform: scale(1.2); }
+  100% { transform: scale(1); }
+}
+.btr {
+    border-radius: 20px; 
+    font-family:
+    Song Myung;
+    background-color: transparent;
+  border: 1px solid orangered; 
+  color: orangered;
+  font-size: 15px;
+  padding: 5px;
+  height: 40px;
+  width: 160px;
+}
+.row1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.gif {
+  display: flex;
+  justify-content: center;
+  border-radius: 56%;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: 80%;
+  left: 600px;
+  /* transform: translateY(-54%); */
+}
+
+/*slide2*/
+
+.divicon {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 50px;
+  padding: 20px;
+  background-color: rgba(238, 237, 237, 1);
+  margin: 10px;
+  overflow: hidden; 
+}
+
+.divicon p {
+  font-size: 20px;
+  font-family: Spectral;
+}
+
+.slide2 {
+  display: flex;
+  object-fit: cover;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.slide2 p {
+  font-size: 20px;
+  font-family: Spectral;
+}
+
+.slides {
+  display: flex;
+  flex-direction: row;
+  animation: scroll-left 10s linear infinite;
+  overflow-x: hidden; /* Hide overflow to prevent content from overflowing */
+  width: 100%; /* Ensure the slides take the full width of the container */
+}
+
+@keyframes scroll-left {
+  0% {
+      transform: translateX(100%);
+  }
+  100% {
+      transform: translateX(-100%);
+  }
+}
+
+
+
+/*slide3*/
+
+.slide3 {
+   background-color: rgba(238, 237, 237, 1);
+   margin-top: 50px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    padding: 30px;
+}
+
+
+.pslide3 h4{
+  padding: 10px;
+  font-family: Spectral;
+}
+
+.rowslide3 {
+    display: flex;
+    align-items: center;
+}
+
+.btr1 {
+    border-radius: 20px; 
+    font-family:
+    Song Myung;
+    background-color: white;
+    border: transparent;
+  color:orangered;
+  font-size: 20px;
+  margin-top: 20px;
+  padding: 5px;
+  height: 40px;
+  width: 160px;
+  transition: transform 0.3s ease;
+}
+.btr1:hover {
+  background-color: #ffcebb;
+  transform: scale(1.1);
+}
+/*slide4*/
+
+.slide4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1rem;
+  align-items: center;
+  --webkit-scroll-bar :var(--webkit-scroll-bar) scroll
+}
+.slideh4{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-family: Song Myung;
+}
+
+.image2{
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  justify-content: center;
+}
+  .image-container {
+    position: relative;
+  }
+  
+  .image-container:hover img {
+    filter: brightness(70%);
+  }
+  
+  .image-container:hover .para {
+    background-color: orangered;
+
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .para {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 400px;
+    height: 134px;
+    padding: 14px;
+    background-color: #F5EEFF;
+    font-family:Spectral;
+    z-index: 1;
+    transition: all 0.3s ease;
+    box-sizing: border-box;
+}
+  
+  .para h3 {
+    margin-top: 0;
+  }
+
+  .image-container {
+    position: relative;
+  }
+  
+  .image-container:hover img {
+    filter: brightness(70%);
+  }
+  
+  .image-container:hover .para1 {
+    background-color: orangered;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .para1 {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 700px;
+    height: 124px;
+    padding: 14px;
+    background-color: #F5EEFF;
+    font-family:Spectral;
+    z-index: 1;
+    transition: all 0.3s ease;
+    box-sizing: border-box;
+}
+  
+  .para1 h3 {
+    margin-top: 0;
+  }
+.slideh5{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-family: Song Myung;
+}
+
+.clrs {
+  border: 20px solid rgba(49, 48, 48, 1);
+  border-radius: 40px;
+  width: 100%;
+  height: 170px;
+  overflow: hidden; 
+}
+
+.content3 {
+  margin: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  animation: scroll-left 10s linear infinite;
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.clr {
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border-radius: 50px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  display: inline-flex;
+  object-fit: contain;
+  display: flex;
+  flex-direction: row;
+}
+
+
+
+/*slide*/
+  
+.image-container1{
+  width: 30%;
+  height: 30%;
+}
+.mrg{
+  display: flex;
+  flex-direction: row;
+}
+
+.mrg1{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.image-cmd{
+  width: 100%;
+  height: 100%;
+}
+.image-container1:hover .overlay {
+  display: block;
+}
+
+.bottom-left-text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 10px;
+  color: white;
+  font-family:Mukta;
+
+ 
+}
+
+.image-container1 .image-cmd:hover{
+  position: absolute;
+  content: "Through the lens of our extensive industry expertise, We offer a customized suite of capabilities designed to address your specific use cases.";
+  z-index: 1;
+  width: 100%;
+  left: 0;
+  top: 0;
+  height: 100%;
+}
+.whole-container{
+  position: relative;
+}
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* semi-transparent black */
+  color: white;
+  padding: 10px;
+  display: none;
+}
+/* .image-container1:hover::after {
+opacity: 1;
+}
+
+.image-container1:hover img {
+height: 100%; 
+width: 100%;
+}
+
+
+
+
+.image-container1 img {
+width: 90%;
+height: 90%;
+transition: transform 0.3s ease; 
+}
+.image-container1:hover img {
+transform: scale(1.1); 
+}
+.image-container1 {
+  position: relative;
+   
+}.image-container1:hover::after {
+opacity: 1;
+}
+
+.image-container2:hover img {
+height: 100%; 
+width: 100%;
+
+}
+
+.image-container2::after {
+  content: "Through the lens of our extensive industry expertise, We offer a customized suite of capabilities designed to address your specific use cases.";
+  position: absolute;
+  bottom: 90px;
+  left: 0;
+  color: white;
+  padding: 10px;
+  width: 100%;
+  transition: opacity 0.3s ease;
+  opacity: 0; 
+}
+
+
+.image-container2 img {
+width: 90%;
+height: 90%;
+transition: transform 0.3s ease; 
+}
+.image-container2:hover img {
+  --webkit-scroll-bar :var(--webkit-scroll-bar) scroll
+transform: scale(1.1); 
+}
+.image-container3{
+  position: relative;
+   
+}.image-container3:hover::after {
+opacity: 1;
+}
+
+.image-container3:hover img {
+height: 100%; 
+width: 100%;
+}
+
+.image-container3::after {
+  content: "Through the lens of our extensive industry expertise, We offer a customized suite of capabilities designed to address your specific use cases.";
+  position: absolute;
+  bottom: 90px;
+  left: 0;
+  color: white;
+  padding: 10px;
+  width: 100%;
+  transition: opacity 0.3s ease;
+  opacity: 0; 
+}
+
+
+.image-container3 img {
+width: 90%;
+height: 90%;
+transition: transform 0.3s ease; 
+}
+.image-container3:hover img {
+transform: scale(1.1); 
+}
+
+
+.image-container4 {
+  position: relative;
+   
+}.image-container4:hover::after {
+opacity: 1;
+}
+
+.image-container4:hover img {
+height: 100%; 
+width: 100%;
+}
+
+.image-container4::after {
+  content: "Through the lens of our extensive industry expertise, We offer a customized suite of capabilities designed to address your specific use cases.";
+  position: absolute;
+  bottom: 90px;
+  left: 0;
+  color: white;
+  padding: 10px;
+  width: 100%;
+  transition: opacity 0.3s ease;
+  opacity: 0; 
+}
+
+
+.image-container4 img {
+width: 90%;
+height: 90%;
+transition: transform 0.3s ease; 
+}
+.image-container4:hover img {
+  --webkit-scroll-bar :var(--webkit-scroll-bar) scroll
+transform: scale(1.1); 
+} */
+.slideh6{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-family: Song Myung;
+}
+
+.whites {
+  background-color: rgba(255, 255, 255, 1);
+  height: 150px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: row;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  font-family: Spectral;
+  transition: transform 0.3s ease;
+}
+.whites:hover {
+  transform: scale(1.1);
+}
+.rowslide1 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin: 30px;
+}
+
+.rowslide {
+  display: flex;
+  margin: 30px;
+  justify-content: space-between;
+}
+.col-lg-12 h3{
+  font-family: Song Myung
+}
+.hov h3{
+  font-family: Song Myung
+  ;
+}
+
+.hov {
+  font-family: Spectral;
+  position: relative;
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+
+
+.hov:hover {
+  background-color:#ffeee8;
+  transform: scale(1.1);
+}
+
+
+.boom1 {
+  animation: slideInRight 0.5s ease;
+}
+
+@keyframes slideInRight {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.col-lg-6 h6{
+  font-family: Song Myung;
+}
+.pr{
+  font-family: spectral;
+}
+.flag{
+  color:orangered;
+}
+
+.backgrounds{
+  background-color:#fafafa;
+  width: 100%;
+  height: auto;
+}
+.text{
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+
+.heading{
+  margin-bottom: 60px;
+  font-family: Mukta;
+}
+
+.work {
+  width: 600px; 
+  height: 600px; 
+  position: relative;
+  overflow: hidden; 
+}
+
+.work img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation: rotateAnimation 6s linear infinite; 
+}
+
+@keyframes rotateAnimation {
+  from {
+      transform: rotate(0deg); 
+  }
+  to {
+      transform: rotate(360deg); 
+  }
+}
+
+
+
+.backs{
+  background-color:#ffeee8;
+  width: 500px;
+  margin: 30px;
+  height: 600px;
+  margin-bottom: 20px;
+}
+input{
+  width: 100%;
+  margin-top: 20px;
+  background-color:#f2f2f2;
+  padding: 10px;
+  color:black;
+  border: transparent;
+}
+
+textarea{
+  width: 100%;
+  background-color:#f2f2f2;
+  padding: 10px;
+  color:black;
+  border: transparent;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  background-color:#f2f2f2;
+  margin-bottom: 20px;
+}
+
+
+select {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px 0 0 5px;
+  border: transparent;
+  background-color:#F0F6FC;
+}
+
+/* Styles for the phone number input field */
+input[type="tel"] {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 0 5px 5px 0;
+  border: 1px solid #ccc;
+  border: transparent;
+}
+.bt1 {
+  border-radius: 37px;
+  font-family: "Song Myung";
+  border: none;
+  font-size: 20px;
+  margin-top: 20px;
+  padding: 15px 58px 15px 58px;
+  /* height: 38px; */
+  /* width: 158px; */
+  color: white;
+  background-color: rgba(255, 73, 0, 1);
+  position: relative;
+  overflow: hidden;
+}
+
+.bt1:hover {
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.5);
+}
+
+.bt1::after {
+  content: "";
+  color: black;
+  border-radius: 50%;
+  background-image: url("../../assets/arrow\ \(1\).png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 59px;
+  height: 74px;
+  position: absolute;
+  top: 64%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  transition: left 1s ease,
+}
+
+.bt1:active::after {
+  left: 0%;
+  background-color: white;
+  color: black;
+}
+
+
+.footer1 {
+  margin: 30px;
+  display: flex;
+  gap: 1rem;
+  justify-content: space-around;
+  flex-wrap: wrap; 
+}
+
+.foot {
+  margin: 10px;
+}
+
+.phone {
+  display: flex;
+  gap: 0.5rem;
+  align-items: baseline; 
+}
+
+.iconsss {
+ 
+  text-align: center; 
+  margin-bottom: 30px;
+}
+
+.icon {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.icon i {
+  font-size: 24px; 
+}
+
+.iconsss h3{
+ 
+  font-family: Song Myung;
+  color: orangered;
+}
+
+.under h3{
+  font-family: Song Myung;
+  color: orangered;
+}
+.foot h3{
+  font-family: Song Myung;
+  color: orangered;
+}
+.foot p{
+  font-family: Spectral;
+}
+.under p{
+  font-family: Spectral;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .divicon {
+    display: flex;
+    flex-direction: column;
+  }
+  .gif{
+    top: 65%;
+    left: 200px;
+  }
+  .slide3{
+    display: flex;
+    flex-direction: column;
+   
+  }
+  .pslide3{
+     text-align: center;
+  }
+  .fiveimg{
+    margin-top: 10px;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+  }
+  .slide4{
+    display: flex;
+    flex-direction: column;
+   
+  }
+  .image1 {
+    width: 236%;
+  
+  }
+  .rowslide{
+    display: flex;
+    gap: 1rem;
+  }
+  .rowslide1{
+    display: flex;
+    gap: 1rem;
+  }
+  .work{
+    width: 400px;
+    height: 400px;
+    
+  }
+  .backs{
+    margin: 0px;
+  }
+  .footer1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .iconsss{
+    display: flex;
+  }
+  .whiteback{
+    width: 400px;
+  }
+}
